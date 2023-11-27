@@ -53,7 +53,7 @@ class HiloEspera2 extends Thread {
 	}
 }
 
-public class prueba {
+public class ejercicio4 {
 	public static void main(String args[]) {
 		HiloEjercicio4 hilo = new HiloEjercicio4();
 		hilo.start();
