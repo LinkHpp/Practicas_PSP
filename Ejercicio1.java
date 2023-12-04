@@ -1,3 +1,12 @@
+/*
+Crea un programa que cree un hilo que realice el cálculo de los primeros N números
+de la sucesión de Fibonacci.
+La sucesión de Fibonacci comienza con los números 0 y 1 y el siguiente elemento es la suma de
+los dos elementos anteriores. Así la sucesión de Fibonacci sería 0, 1, 1, 2, 3, 5, 8, 13, 21, 34…
+El parámetro N se pedirá y recogerá en el hilo principal e irá indicado cuando se llame al
+constructor de la clase Thread correspondiente.
+*/
+
 import java.util.Scanner;
 
 public class Ejercicio1 {
