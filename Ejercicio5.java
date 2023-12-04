@@ -56,7 +56,7 @@ class HiloEspera2 extends Thread {
 	}
 }
 
-public class ejercicio5 {
+public class Ejercicio5 {
 	public static void main(String args[]) {
 		HiloEjercicio5 hilo = new HiloEjercicio5();
 		hilo.start();
