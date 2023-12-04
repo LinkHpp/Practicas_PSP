@@ -1,3 +1,13 @@
+/* EJERCICIO 4
+Crea un programa que cree dos hilos.
+Después de empezar un hilo hijo debe esperar 3 segundos y el otro hilo hijo debe esperar 5
+segundos.
+El hilo principal después de crear a los dos hijos debe esperar 4 segundos.
+Cada hijo debe de mostrar por pantalla su nombre y cuánto tiempo va a esperar.
+Se puede forzar la interrupción de un hilo mediante el método interrupt(). (ver ejemplo en el
+código siguiente).
+*/
+
 class HiloEjercicio4 extends Thread {
 	@Override
 	public void run() {

@@ -1,4 +1,4 @@
-/*
+/* EJERCICIO 1
 Crea un programa que cree un hilo que realice el cálculo de los primeros N números
 de la sucesión de Fibonacci.
 La sucesión de Fibonacci comienza con los números 0 y 1 y el siguiente elemento es la suma de

@@ -1,3 +1,9 @@
+/* EJERCICIO 3
+Crea un programa que cree un hilo. Este hilo mostrará su nombre e indicará que está
+empezando. A continuación, se esperará 3 segundos. Antes de acabar deberá mostrar que va a
+acabar.
+*/
+
 class HiloEjercicio3 extends Thread {
 	@Override
 	public void run() {

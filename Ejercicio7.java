@@ -1,3 +1,11 @@
+/* EJERCICIO 7
+Prueba el ejemplo anterior en tu equipo. Ejecuta el programa varias veces
+cambiando la prioridad de los hilos y comprueba si se nota este cambio.
+Haz que se creen cuatro hilos más y vuelve a hacer las pruebas anteriores y comprueba si se
+notan los cambios de prioridad.
+¿A qué se debe este comportamiento cuando se cambian las prioridades?
+*/
+
 class HiloPrioridad extends Thread {
     public void run() {
         System.out.println("Soy el " + Thread.currentThread().getName() + " empezando.");

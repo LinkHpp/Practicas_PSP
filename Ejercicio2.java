@@ -1,3 +1,12 @@
+/* EJERCICIO 2
+Crea un programa que cree entre 1 y 10 hilos. Cada hilo tendrá que mostrar por
+pantalla:
+○ Mensaje indicando que empieza.
+○ El número de hilo por orden de creación.
+○ Mensaje de que va a finalizar.
+Se le preguntará al usuario cuántos hilos se van a crear.
+*/
+
 import java.util.Scanner;
 
 public class Ejercicio2 {

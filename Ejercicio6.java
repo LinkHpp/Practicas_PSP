@@ -1,3 +1,8 @@
+/* EJERCICIO 6
+Comprueba el funcionamiento de los hilos tipo daemon creando una copia del
+ejercicio 4 y añadiendo un hilo nuevo que será de tipo daemon y esperará 20 segundos.
+*/
+
 class HiloEjercicio4 extends Thread {
 	@Override
 	public void run() {
