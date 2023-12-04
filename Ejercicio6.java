@@ -3,14 +3,14 @@ Comprueba el funcionamiento de los hilos tipo daemon creando una copia del
 ejercicio 4 y añadiendo un hilo nuevo que será de tipo daemon y esperará 20 segundos.
 */
 
-class HiloEjercicio4 extends Thread {
+class HiloEjercicio6 extends Thread {
 	@Override
 	public void run() {
 		System.out.println(".");
 		try {
 			System.out.println("Voy crear dos hilos y a esperar 4 segundos.");
-            HiloEspera1 hilo1 = new HiloEspera1 ();
-            HiloEspera2 hilo2 = new HiloEspera2 ();
+            HiloEspera1F hilo1 = new HiloEspera1F ();
+            HiloEspera2F hilo2 = new HiloEspera2F ();
             HiloDa hiloDa = new HiloDa();
             hilo1.setName("hilo1");
             hilo2.setName("hilo2");
@@ -54,7 +54,7 @@ class HiloDa extends Thread {
 	}
 }
 
-class HiloEspera1 extends Thread {
+class HiloEspera1F extends Thread {
 	@Override
 	public void run() {
 		System.out.println("soy el "+getName()+" y voy a esperar 3 segundos.");
@@ -69,7 +69,7 @@ class HiloEspera1 extends Thread {
 	}
 }
 
-class HiloEspera2 extends Thread {
+class HiloEspera2F extends Thread {
 	@Override
 	public void run() {
 		System.out.println("soy el "+getName()+" y voy a esperar 5 segundos.");
@@ -86,7 +86,7 @@ class HiloEspera2 extends Thread {
 
 public class Ejercicio6 {
 	public static void main(String args[]) {
-		HiloEjercicio4 hilo = new HiloEjercicio4();
+		HiloEjercicio6 hilo = new HiloEjercicio6();
 		hilo.start();
 	}	
 }

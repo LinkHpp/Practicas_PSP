@@ -9,8 +9,8 @@ class HiloEjercicio5 extends Thread {
 	public void run() {
 		try {
 			System.out.println("Voy crear dos hilos y a esperar a que acaben.");
-            HiloEspera1 hilo1 = new HiloEspera1 ();
-            HiloEspera2 hilo2 = new HiloEspera2 ();
+            HiloEspera1D hilo1 = new HiloEspera1D ();
+            HiloEspera2D hilo2 = new HiloEspera2D ();
             hilo1.setName("hilo1");
             hilo2.setName("hilo2");
             hilo1.start();
@@ -26,7 +26,7 @@ class HiloEjercicio5 extends Thread {
 	}
 }
 
-class HiloEspera1 extends Thread {
+class HiloEspera1D extends Thread {
 	@Override
 	public void run() {
 		System.out.println("soy el hilo 1 y voy a esperar 3 segundos.");
@@ -41,7 +41,7 @@ class HiloEspera1 extends Thread {
 	}
 }
 
-class HiloEspera2 extends Thread {
+class HiloEspera2D extends Thread {
 	@Override
 	public void run() {
 		System.out.println("soy el hilo 2 y voy a esperar 5 segundos.");
